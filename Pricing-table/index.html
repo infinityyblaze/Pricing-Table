@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pricing Table</title>
+</head>
+<body>
+    <div class="container">
+      <h1 class="title">Choose a plan</h1>
+      <div class="toggle-switch">
+            <span>Billed anually </span>
+            <input type="checkbox" class="toggler">
+            <span> Billed monthly</span>
+      </div>
+
+      <div class="cards">
+
+        <!-- Starter Plan -->
+          <div class="card" id="card-1">
+            <h1 class="card-title">STARTER</h1>
+            <h2 class="card-price" id="starter-price"> 999 ₹<span> / month</span> </h2>
+            <ul class="card-plan">
+                <li> 50 GB Disk Space</li>
+                <li> 50 Email Accounts</li>
+                <li>50 GB Bandwidth</li>
+                <li>10 Subdomains</li>
+                <li>15 Domains</li>
+            </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+
+          <!-- Pro Plan -->
+          <div class="card active" id="card-2">
+            <h1 class="card-title">PRO</h1>
+            <h2 class="card-price" id="pro-price"> 1999 ₹ <span> / month</span> </h2>
+            <span class="note"> Monthly active users(popular) </span>
+          
+            <ul class="card-plan">
+                <li>60 GB Disk Space</li>
+                <li>60 Email Accounts</li>
+                <li>60 GB BandWidth</li>
+                <li>15 Subdomains</li>
+                <li>20 Domains</li>
+            </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+
+          <!-- Enterpise Card -->
+          <div class="card" id="card-3">
+            <h1 class="card-title">PREMIUM</h1>
+            <h2 class="card-price" id="premium-price"> 2999 ₹ <span> / month</span> </h2>
+            <ul class="card-plan">
+                <li> 70 GB Disk Space </li>
+                <li> 70 Email Accounts</li>
+                <li> 70 GB Bandwidth </li>
+                <li> 20 Subdomains</li>
+                <li> 25 Domains</li>
+            </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
